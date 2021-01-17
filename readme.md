@@ -35,13 +35,9 @@ The website will be to encourage users to feel confident that they can access va
 
 ##### This website build is the best way of achieving these things because:
 
-- 
-- 
-- 
-  - 
-  - 
-  - 
-  - 
+- Web based application for jobseekers and people looking for a platform which is simple to use and gives insights into career opportunities and jobs
+- Job matching ability for users via there Job title and location.
+- News feed on job opportunities and current stories 
 
 ##### Visitors to this website are looking for:
 
@@ -120,7 +116,33 @@ The website will be to encourage users to feel confident that they can access va
 
 - FAQ page
 
-  
+- Ability for clients to search effectively for suitable candidates with video testimonials and profiles. 
+
+- Searchable database of users which is accurate on skills and job sets. 
+
+- Simple landing page which allows users to sign up using their LinkedIn account which will autofill the different areas of their profile. 
+
+- Ability to rate profiles on testimonials and recommendations.
+
+- Users can easily send a link to there profile for employers to see their referrals and recommendations.
+
+- Users can send referral requests from the web application, set the questions to ask to multiple recipients. 
+
+- Users can utilise a link which will play the referrals and testimonials on other social media news feeds and profiles such as LinkedIn Facebook etc for more external reach. 
+
+- Businesses can build a branded profile.
+
+- Users can select the questions for the referral requests they make. 
+
+- Referrals can utilise a built in video recorder when clicking on the link and view the questions which the user would like them to address in the referral or testimonial. 
+
+- Referrals can set the background of the video to make it more professional from a number of background options.
+
+- Businesses and clients can record video job specs and send them to users by the application. 
+
+- Users can upload resumes and businesses clients can download in pdf or even PowerPoint presentations with the video referrals included. 
+
+- Business and clients can also set up their own profile to request testimonials and referrals by video.   
 
 ### Technologies Used
 
