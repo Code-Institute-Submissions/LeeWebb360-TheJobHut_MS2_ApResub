@@ -151,7 +151,14 @@ The website will be to encourage users to feel confident that they can access va
 - Call to action buttons and contact details
 - Mobile First Design
 - Home Page
+- Industry News Page
+- Career Advice Page
+- Jobs Near You Page
 - Contact Us Page
+- Search facility for jobs
+- Links to career advice
+- Links to industry news
+- Links to social media platforms
 
 ### Features to implement in the future
 
