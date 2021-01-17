@@ -58,6 +58,14 @@ The website will be to encourage users to feel confident that they can access va
 
 [Home Page]()
 
+[Industry News]()
+
+[Career Advice]()
+
+[Jobs Near You]()
+
+[About Us]()
+
 ### Features
 
 ##### Mobile First Design:
