@@ -70,7 +70,11 @@ The website will be to encourage users to feel confident that they can access va
 
 - Screen scroll to about us details
 
-- footer to hold contact details and social media links
+- Search bar to search roles by location and job title
+
+- Google map to dhow the locations of latest roles
+
+- Footer to hold contact details and social media links
 
 ##### Home Page:
 
@@ -78,25 +82,55 @@ The website will be to encourage users to feel confident that they can access va
 
 - Active pictures/buttons to websites other pages
 
-- Contact Us form page
+- News feeds and links to news stories
+
+- Career Advice links
 
 - Screen scroll to about us details
 
-- Contact us banner
-
-- Local map
+- Google Mam and job search facility
 
 - Social links and copyright
 
-##### Contact Us Page:
+##### Industry News:
 
 - Hero image
 
-- Contact form
+- Career news links to multiple news articles available on the internet
 
-- Contact us banner
+- Links to trending jobs by Industry
 
-- Local map
+- Social links and copyright
+
+##### Career Advice:
+
+- Hero image
+
+- Links to relevant career advice on search for a new role
+
+- Links to career developemnt material such as free courses
+
+- Social links and copyright
+
+##### Jobs Near You:
+
+- Hero image
+
+- Links to relevant career advice on search for a new role
+
+- Links to career developemnt material such as free courses
+
+- Social links and copyright
+
+##### About Us Page:
+
+- Hero image
+
+- google map with job markers
+
+- Search facility to relevant jobs by location and job title
+
+- List of job vacancy results via the search facility
 
 - Social links and copyright
 
