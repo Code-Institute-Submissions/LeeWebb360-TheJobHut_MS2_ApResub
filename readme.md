@@ -24,14 +24,14 @@ The website will be to encourage users to feel confident that they can access va
 
 ##### Client Stories:
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
+1. New visitors want a visually pleasing experience which gives them a clear understanding of the business offerings of the application.
+2. New visitors want an easy to use search facility which accurately matches jobs and opportunities available to them.
+3. Returning visitors want to be able to easily navigate the website each time they visit.
+4. New visitors want to be able to access news stories relevant to there job search and career progression.
+5. New visitors want to be able to access the latest role on the internet.
+6. Returning visitors want to be able to map the location of job vacancies in relation to there locations.
+7. Job seekers want to be able to access tips and advice on interview preparation and CV writing.
+8. Job seekers want upskilling and course advice to further their careers and become more hireable.
 
 ##### This website build is the best way of achieving these things because:
 
@@ -41,16 +41,17 @@ The website will be to encourage users to feel confident that they can access va
 
 ##### Visitors to this website are looking for:
 
-- 
-- 
-- 
+- New and current job vacancies with supporting advice and career insights
+- The ability to access courses and training.
+- Current career and industry news.
+- A visual and interactive experience and an easy to navigate site.
 
 ##### The Ideal Client/Customer:
 
-- 
-- 
-- 
-- 
+- Job seekers looking for their next job/role.
+- New visitors looking for industry insights around careers.
+- New visitors looking for advice on upskilling and learning new skills.
+- Returning jobseekers. 
 
 ##### Wireframe Mock-ups:
 
