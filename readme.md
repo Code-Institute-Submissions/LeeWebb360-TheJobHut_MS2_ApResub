@@ -143,7 +143,7 @@ The website will be to encourage users to feel confident that they can access va
 
 - Social links and copyright
 
-### Existing Features
+### Existing Features:
 
 - Header and logo (hero image)
 - Nav bar
@@ -160,7 +160,7 @@ The website will be to encourage users to feel confident that they can access va
 - Links to industry news
 - Links to social media platforms
 
-### Features to implement in the future
+### Features to implement in the future:
 
 - Chat Bot
 
@@ -194,7 +194,7 @@ The website will be to encourage users to feel confident that they can access va
 
 - Business and clients can also set up their own profile to request testimonials and referrals by video.   
 
-### Technologies Used
+### Technologies Used:
 
 1. HTML5
 2. CSS3
@@ -202,11 +202,11 @@ The website will be to encourage users to feel confident that they can access va
 4. Google Fonts
 5. Font Awesome
 
-### Testing
+### Testing:
 
 - TBC
 
-Deployment:
+### Deployment:
 
 - TBC
 
@@ -214,8 +214,8 @@ Deployment:
 
 - TBC
 
-### Credits
+### Credits:
 
 - TBC
 
-### Acknowledgements
+### Acknowledgements:
