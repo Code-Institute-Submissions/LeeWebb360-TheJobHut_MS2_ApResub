@@ -97,7 +97,7 @@ The website will be to encourage users to feel confident that they can access va
 
 - Screen scroll to about us details
 
-- Google Mam and job search facility
+- Google Map and job search facility
 
 - Social links and copyright
 
