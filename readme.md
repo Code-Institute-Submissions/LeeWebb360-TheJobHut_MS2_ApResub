@@ -55,17 +55,17 @@ The website will be to encourage users to feel confident that they can access va
 
 ##### Wireframe Mock-ups:
 
-[Mobile First Design]()
+[Mobile First Design](documentation/wireframes/thejobhut.com-finalwireframes-finalversion-mobilefirstdesign.pdf)
 
-[Home Page]()
+[Home Page](documentation/wireframes/thejobhut.com-finalwireframes-finalversion-desktopdesign.pdf)
 
-[Industry News]()
+[Industry News](documentation/wireframes/thejobhut.com-finalwireframes-finalversion-industrynews.pdf)
 
-[Career Advice]()
+[Career Advice](documentation/wireframes/thejobhut.com-finalwireframes-finalversion-careeradvice.pdf)
 
-[Jobs Near You]()
+[Jobs Near You](documentation/wireframes/thejobhut.com-finalwireframes-finalversion-jobsnearyou.pdf)
 
-[About Us]()
+[About Us](documentation/wireframes/thejobhut.com-finalwireframes-finalversion-aboutus.pdf)
 
 ### Features
 
