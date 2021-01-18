@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
+body {
+	font-family: "roboto", sans-serif;
+}
+
+/* ---Global CREDIT: Code Institute Slack community---*/
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* ---Navbar---*/
+
+.navbar {
+	margin-bottom: 0;
+	border: 0;
+	width: 100%;
+	background-color: rgb(0, 174, 255);
+}
+
+.navbar .navbar-toggler {
+	border: 0;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+	font-weight: bold;
+}
+
+.navbar .navbar-text {
+	font-weight: bold;
+	color: rgba(255, 255, 255, 1);
+}
