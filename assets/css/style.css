@@ -37,3 +37,54 @@ body {
 	font-weight: bold;
 	color: rgba(255, 255, 255, 1);
 }
+
+/*--Jumbotron--*/
+
+.jumbotron-overlay-text {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	/* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	font-size: 20px;
+	padding-bottom: 35px;
+	padding-top: 35px;
+	text-align: center;
+}
+
+.jumbotron {
+	height: 100%;
+	background: url("../images/thejobhut-jumbotron-home.jpg") no-repeat center center;
+	background-size: cover;
+	padding-top: 35%;
+	padding-bottom: 10%;
+	position: relative;
+}
+
+/*--footer--*/
+
+.social-links-copyright {
+	background-color: #ffffff;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.list-inline-item {
+	font-size: 45px;
+}
+
+.slogon-quote {
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(0, 174, 255);
+}
+
+/*--media queries--*/
+
+@media (max-width: 767px) {
+	.jumbotron {
+		height: 320px;
+	}
+}
