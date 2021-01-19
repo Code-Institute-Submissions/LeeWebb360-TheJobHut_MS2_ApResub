@@ -6,5 +6,6 @@ var flkty = new Flickity( elem, {
   contain: true,
   autoPlay: true,
   freeScroll: true,
-  wrapAround: true
+  wrapAround: true,
+  pageDots: false
 });

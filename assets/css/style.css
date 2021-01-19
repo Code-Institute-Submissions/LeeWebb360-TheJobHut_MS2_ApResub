@@ -88,6 +88,14 @@ body {
     margin-bottom: 10px;
 }
 
+.latest-news-stories-content {
+    color: rgb(0, 174, 255);
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
 .carousel {
   background: #EEE;
 }
