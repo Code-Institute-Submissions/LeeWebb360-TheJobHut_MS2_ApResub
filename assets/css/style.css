@@ -81,29 +81,36 @@ body {
 /*--industry news--*/
 
 .industry-news-content {
-    color: #ffffff;
+    color: white;
     background-color: rgb(0, 174, 255);
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-bottom: 10px;
 }
 
 .latest-news-stories-content {
-    color: rgb(0, 174, 255);
-    background-color: #ffffff;
+    background-color: rgb(206, 206, 206);
     padding-top: 15px;
     padding-bottom: 50px;
     margin-bottom: 10px;
 }
 
+.latest-news-heading {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.latestnews-text {
+    color: black;
+    font-size: larger;
+}
+
 .carousel {
-  background: #EEE;
+  background: white;
 }
 
 .carousel-cell {
-  width: 28%;
-  height: 200px;
-  margin-right: 10px;
+  width: 20%;
+  height: 200px; 
   background: #8C8;
   counter-increment: gallery-cell;
 }
