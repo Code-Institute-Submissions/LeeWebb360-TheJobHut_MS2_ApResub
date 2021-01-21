@@ -219,4 +219,7 @@ body {
 @media screen and ( max-width: 768px ) {
   /* half-width cells for larger devices */
   .carousel-cell { width: 50%; }
+  .carousel-cell { height: 110px;}
+  .main-carousel { height: 110px;}
 }
+
