@@ -53,3 +53,6 @@
 })("docReady", window);
 
 //document ready function end
+
+const searchFrom = document.querySelector('.search')
+const input = document.querySelector('input')

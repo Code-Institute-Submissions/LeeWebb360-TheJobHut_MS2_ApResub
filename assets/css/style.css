@@ -147,6 +147,18 @@ body {
   display: none;
 }
 
+.search-form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+
+.container {
+    position: absolute;
+}
+
 /*--career advice--*/
 
 .career-advice-content {
