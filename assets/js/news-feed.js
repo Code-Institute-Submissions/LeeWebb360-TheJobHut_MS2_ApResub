@@ -54,16 +54,6 @@
 
 //document ready function end
 
-const newsStory = document.querySelector(".carousel-cell");
-
-function retrieve(e){
-
-newsStory.innerHTML
-
-e.preventDefault()
-
-}
-
 fetch("https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI?q=jobs&pageNumber=1&pageSize=10&autoCorrect=true&fromPublishedDate=null&toPublishedDate=null", {
 	"method": "GET",
 	"headers": {
@@ -73,7 +63,7 @@ fetch("https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSe
 }).then((res)=>{
     return res.json()
 }).then((data)=>{
-    console.dir(data)
+    console.dir(data.value)
 
 })
 
