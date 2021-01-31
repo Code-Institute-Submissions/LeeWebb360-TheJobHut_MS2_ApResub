@@ -54,5 +54,26 @@
 
 //document ready function end
 
-const searchFrom = document.querySelector('.search')
-const input = document.querySelector('input')
+const newsStory = document.querySelector(".carousel-cell");
+
+function retrieve(e){
+
+newsStory.innerHTML
+
+}
+
+fetch("https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI?q=jobs&pageNumber=1&pageSize=10&autoCorrect=true&fromPublishedDate=null&toPublishedDate=null", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "d3c86e5140mshf9ee7714ea78605p16d425jsnf445de32948d",
+		"x-rapidapi-host": "contextualwebsearch-websearch-v1.p.rapidapi.com"
+	}
+}).then((res)=>{
+    return res.json()
+}).then((data)=>{
+    console.dir(data)
+
+})
+
+
+
