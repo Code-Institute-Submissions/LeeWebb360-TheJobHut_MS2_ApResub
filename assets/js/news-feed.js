@@ -60,6 +60,8 @@ function retrieve(e){
 
 newsStory.innerHTML
 
+e.preventDefault()
+
 }
 
 fetch("https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI?q=jobs&pageNumber=1&pageSize=10&autoCorrect=true&fromPublishedDate=null&toPublishedDate=null", {
