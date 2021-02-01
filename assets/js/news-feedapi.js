@@ -14,22 +14,21 @@ $(document).ready(function () {
     };
 
     $.ajax(settings).done(function (response) {
-        console.log(response);
+        console.log(response.value);
 
-    });
+        let cardArray = [];
+        let output = "";
+        let latestNews = response.value;
 
-
-    let output = "";
-    let latestNews = "news.value";
-
-    for (var i in latestNews) {
-        output += `
-    
+        for (var i in latestNews) {
+            output += `
+    <div class="carousel-cell">
     <div class="col">   
     <div class="card hoverable">
-      <div class="card-image">
-        <img src="${latestNews[i].url}" class="responsive-img">
-      </div>
+    ${latestNews[i].image.url ?
+      `<div class="card-image">
+        <img src="${latestNews[i].image.webpageUrl}" class="responsive-img">
+      </div>`:null}
       <div class="card-content">
       <span class="card-title"><i class="material">more_vert</i></span>
       <h6>${latestNews[i].title}</h6>
@@ -45,13 +44,27 @@ $(document).ready(function () {
     </div>
     </div>
     </div>
+    </div>
     `;
 
-    }
+        }
 
-    if (output !== "") {
-        $(".news-results").html(output);
-    }
+        if (output !== "") {
+            $("#news-carousel").html(output);
+            setTimeout(() => {
+                let elem = document.querySelector('#news-carousel');
+                let flkty = new Flickity(elem, {
+                    cellAlign: 'left',
+                    contain: true,
+                    autoPlay: true,
+                    freeScroll: true,
+                    wrapAround: true,
+                    pageDots: false,
+                    prevNextButtons: false
+                });
+            }, 0);
 
+        }
+    });
 })
 
