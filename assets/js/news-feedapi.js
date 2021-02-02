@@ -20,29 +20,21 @@ $(document).ready(function () {
         let output = "";
         let latestNews = response.value;
         let post_limit = 2;
-        let materializeColWidth = 12/post_limit;
+        let materializeColWidth = 12 / post_limit;
 
         for (var i in latestNews) {
             output += `
-    <div class="carousel-cell">
+    <div class="carousel-cell container-inline-block">
     <div class="col 1${materializeColWidth} m6 s12">   
     <div class="card medium hoverable">
     ${latestNews[i].image.thumbnail ?
                     `<div class="card-image">
-        <img src="${latestNews[i].image.thumbnail}" class="responsive-img">
+        <img src="${latestNews[i].image.thumbnail}" class="img-fluid img-thumbnail" style="width:210px;height:120px">
+    
       </div>`: null}
       <div class="card-content">
-      <span class="card-title activator"><i class="material-icons right">more_vert</i></span>
-      <h6>${latestNews[i].title}</h6>
-    </div>
-
-    <div class="card-reveal">
-    <span class="card-title activator"><i class="material-icons right">close</i></span>
-    <p>${latestNews[i].description}</p>
-    </div>
-    
-    <div class="card-action">
-    <a href="${latestNews[i].url}" target="_blank" class="btn btn-primary btn-lg">Read More</a>
+      <h6 class="latest-news-title" d-none d-md-inline-block>${latestNews[i].title}</h6>
+      <a href="${latestNews[i].url}" target="_blank" class="btn btn-danger btn-lg">Read More</a>
     </div>
     </div>
     </div>
@@ -71,4 +63,6 @@ $(document).ready(function () {
         }
     });
 })
+
+
 

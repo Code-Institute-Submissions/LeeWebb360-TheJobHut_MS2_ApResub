@@ -81,12 +81,14 @@ body {
 
 /*--industry news--*/
 
+
 .industry-news-content {
     color: white;
     background-color: rgb(0, 31, 170);
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
 
 .latest-news-stories-content {
     background-color: rgb(206, 206, 206);
@@ -98,7 +100,10 @@ body {
 .latest-news-heading {
     color: rgb(255, 0, 0);
     font-weight: bold;
+
 }
+
+
 
 .latestnews-text {
     color: black;
@@ -106,16 +111,37 @@ body {
 }
 
 .main-carousel {
-  background: white;
-  height: 350px;
+  background: rgb(0, 31, 170);
 }
 
 .carousel-cell {
-  width: 33%;
-  height: 100%; 
-  background:white;
-  counter-increment: gallery-cell;
+  width: 25%;
+  padding-bottom: 10px;
+  border: none;
+  border-style: none;
+  background: rgb(0, 31, 170);
+  background-clip: padding-box;
+  text-align: center;
+  display: flex;
 }
+
+.card {
+    background:  rgb(0, 31, 170);
+    border: none;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.flickity-resize .carousel-cell {
+  min-height: 100%;
+}
+
+.latest-news-title {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /*--
 .carousel-cell.is-selected {
   background: #ED2;
@@ -225,10 +251,12 @@ body {
 
 /*--media query to reduce number of carousel cells on smaller screen--*/
 
-@media screen and ( max-width: 768px ) {
+@media screen and ( max-width: 767px ) {
   /* half-width cells for larger devices */
   .carousel-cell { width: 50%; }
-  .carousel-cell { height: 110px;}
-  .main-carousel { height: 110px;}
+  .carousel-cell {height: 330px;}
 }
+
+
+
 
