@@ -16,34 +16,55 @@ $(document).ready(function () {
                     "x-rapidapi-key": "d3c86e5140mshf9ee7714ea78605p16d425jsnf445de32948d",
                     "x-rapidapi-host": "newscatcher.p.rapidapi.com"
                 },
-                
 
-                beforeSend: function(){
+
+                beforeSend: function () {
                     $("#loader").show();
                 },
 
-                complete: function(){
+                complete: function () {
                     $("#loader").hide();
                 },
 
-                success: function(data){
-                    console.log(data);
-                },
+                success: function (news) {
+                    let output = "";
+                    let newsResult = news.articles;
 
-                error: function(){
-                    console.log("Error");
+                    for (var i in newsResult){
+                        output += `
+                        <h3>${newsResult[i].title}</h3>
+                        <img class="news-media-image" src="${newsResult[i].media}">
+                        <br></br>
+                        <p>${newsResult[i].summary}</p>
+                        <p>Published on: ${newsResult[i].published_date}</p>
+                        <a href="${newsResult[i].link}" target="_blank">Read more</a>
+                        <br></br>
+                        <hr class="block-divider block-divider--long">
+                        `;
+                    }
+                
+
+                if(output !== ""){
+
+                    $("#newsStory").html(output);
+                }else{
+                    let NewsNotFound = "This news is not available. Please try searching a different topic";
+                    $("#newsStory").html(NewsNotFound);
                 }
+            },
+                    
 
-            });
-
-
-        } else {
-            console.log("please enter something")
+        error: function() {
+            console.log("Error");
         }
-
-
 
     });
 
+} else {
+    console.log("please enter something");
+    }
+    }); 
+});
 
-})
+
+
