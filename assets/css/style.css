@@ -64,6 +64,7 @@ body {
 
 .lead-overlay-text {
     display: inline-block;
+    font-style: italic;
     font-size: 30px;
     text-align: center;
     margin-left: 150px;
@@ -85,8 +86,13 @@ body {
 .industry-news-content {
     color: white;
     background-color: rgb(0, 31, 170);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.industry-text-news {
+    font-weight: 900;
+    font-style: italic;
 }
 
 
