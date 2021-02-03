@@ -4,7 +4,7 @@ $(document).ready(function () {
         e.preventDefault();
 
         let query = $("#searchquery").val();
-        let url = "https://newscatcher.p.rapidapi.com/v1/search?q=" + query + "&lang=en&sort_by=relevancy&page=1&media=True";
+        let url = "https://newscatcher.p.rapidapi.com/v1/search?q=" + query + "&lang=en&sort_by=relevancy&page=1&media=True?";
 
         if (query !== "") {
 
@@ -32,12 +32,12 @@ $(document).ready(function () {
 
                     for (var i in newsResult){
                         output += `
-                        <h3>${newsResult[i].title}</h3>
-                        <img class="news-media-image" src="${newsResult[i].media}">
+                        <h3 class="news-heading-title">${newsResult[i].title}</h3>
+                        <img class="news-media-image border border-dark rounded" src="${newsResult[i].media}">
                         <br></br>
-                        <p>${newsResult[i].summary}</p>
+                        <p class="newscontent">${newsResult[i].summary}</p>
                         <p>Published on: ${newsResult[i].published_date}</p>
-                        <a href="${newsResult[i].link}" target="_blank">Read more</a>
+                        <a href="${newsResult[i].link}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="_blank">Read more</a>
                         <br></br>
                         <hr class="block-divider block-divider--long">
                         `;
