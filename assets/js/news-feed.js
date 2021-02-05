@@ -4,7 +4,7 @@ $(document).ready(function () {
         e.preventDefault();
 
         let query = $("#searchquery").val();
-        let url = "https://newscatcher.p.rapidapi.com/v1/search?q=" + query + "&lang=en&sort_by=relevancy&page=1&media=True?";
+        let url = "https://newscatcher.p.rapidapi.com/v1/search?q=" + query + "&lang=en&sort_by=relevancy&page=1&page_size=4&media=True"
 
         if (query !== "") {
 

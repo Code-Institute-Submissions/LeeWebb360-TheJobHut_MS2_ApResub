@@ -4,7 +4,7 @@ $(document).ready(function () {
     const settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI?q=employmentuk&pageNumber=1&pageSize=10&autoCorrect=true&withThumbnails=true&fromPublishedDate=null&toPublishedDate=null",
+        "url": "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI?q=employmentuk&pageNumber=6&pageSize=12&autoCorrect=true&withThumbnails=true&fromPublishedDate=null&toPublishedDate=null",
         "method": "GET",
         "headers": {
             "x-rapidapi-key": "d3c86e5140mshf9ee7714ea78605p16d425jsnf445de32948d",
