@@ -29,12 +29,12 @@ $(document).ready(function () {
     <div class="card medium hoverable">
     ${latestNews[i].image.thumbnail ?
                     `<div class="card-image">
-        <img src="${latestNews[i].image.thumbnail}" class="img-fluid img-thumbnail" style="width:210px;height:120px">
+                    <a href="${latestNews[i].url}" target="_blank">
+        <img src="${latestNews[i].image.thumbnail}" class="img-fluid img-thumbnail" style="width:210px;height:120px"></a>
     
       </div>`: null}
       <div class="card-content">
       <h6 class="latest-news-title" d-none d-md-inline-block>${latestNews[i].title}</h6>
-      <a href="${latestNews[i].url}" target="_blank" class="btn btn-danger btn-lg">Read More</a>
     </div>
     </div>
     </div>
