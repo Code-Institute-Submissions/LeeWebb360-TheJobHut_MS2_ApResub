@@ -285,6 +285,31 @@ body {
 
 }
 
+/*--images--*/
+
+.details-inner-content .details-content-image-btn {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	background-color: rgb(0, 174, 255);
+	color: white;
+	font-size: 20px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 0;
+}
+
+.details-inner-image{
+	margin-top: 50px;
+	width: 100%;
+	display: block;
+}
+
+
 /*--about us--*/
 
 .aboutus-jumbotron {
