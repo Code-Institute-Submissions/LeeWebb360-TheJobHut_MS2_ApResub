@@ -3,10 +3,17 @@ $(document).ready(function () {
     $("#search").on("click", function (e) {
         e.preventDefault();
 
-        let query = $("#searchquery").val();
-        let url = "https://newscatcher.p.rapidapi.com/v1/search?q=" + query + "&lang=en&sort_by=relevancy&page=1&page_size=4&media=True"
+        const query = $("#searchquery").val();
+        const countryQuery = $("#countrynews").val();
+        console.log("value of search with values", query);
+        console.log("value of search with both values", countryQuery);
+      
 
-        if (query !== "") {
+        let url = `https://newscatcher.p.rapidapi.com/v1/search?q=${query}%20jobs&lang=en&sort_by=relevancy&country=${countryQuery}&not_sources=reddit.com%2C%20tmcnet.com%2C%20teamtalk.com%2C%20disneyrollergirl.net&ranked_only=false&page=1&page_size=5&media=True`
+
+        if (query && countryQuery) {
+
+            console.log("making results readable")
 
             $.ajax({
                 url: url,

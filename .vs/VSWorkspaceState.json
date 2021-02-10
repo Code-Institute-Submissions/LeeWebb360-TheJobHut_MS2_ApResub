@@ -3,8 +3,11 @@
     "",
     "\\.theia",
     "\\assets",
+    "\\assets\\css",
+    "\\assets\\images",
+    "\\assets\\js",
     "\\documentation"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\js\\news-feed.js",
   "PreviewInSolutionExplorer": true
 }
