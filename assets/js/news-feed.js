@@ -9,7 +9,7 @@ $(document).ready(function () {
         console.log("value of search with both values", countryQuery);
       
 
-        let url = `https://newscatcher.p.rapidapi.com/v1/search?q=${query}%20jobs&lang=en&sort_by=relevancy&country=${countryQuery}&not_sources=reddit.com%2C%20tmcnet.com%2C%20teamtalk.com%2C%20disneyrollergirl.net&ranked_only=false&page=1&page_size=5&media=True`
+        let url = `https://newscatcher.p.rapidapi.com/v1/search?q=${query}&lang=en&sort_by=relevancy&country=${countryQuery}&not_sources=teamtalk.com%2C%20ajc.com%2C%20reddit.com%2C%20tmcnet.com&ranked_only=false&page=1&page_size=5&media=True`
 
         if (query && countryQuery) {
 

@@ -1,8 +1,16 @@
 $(document).ready(function () {
 
-        let url = "https://newscatcher.p.rapidapi.com/v1/search?q=online%20courses&lang=en&sort_by=relevancy&page=1&page_size=5&media=True",
+    $("#coursesearch").on("click", function (e) {
+        e.preventDefault();
 
-});
+        const querytwo = $("#coursequery").val();
+        console.log("value of search", querytwo);
+        
+        let url = `https://google-search3.p.rapidapi.com/api/v1/search/q=${querytwo}+online+course&num=8`
+
+        if (querytwo !== "") {
+
+            console.log("list courses")
 
             $.ajax({
                 url: url,
@@ -10,7 +18,7 @@ $(document).ready(function () {
                 dataType: "json",
                 headers: {
                     "x-rapidapi-key": "d3c86e5140mshf9ee7714ea78605p16d425jsnf445de32948d",
-                    "x-rapidapi-host": "newscatcher.p.rapidapi.com"
+                    "x-rapidapi-host": "google-search3.p.rapidapi.com"
                 },
 
 
@@ -24,17 +32,12 @@ $(document).ready(function () {
 
                 success: function (advice) {
                     let output = "";
-                    let careerList = advice.articles;
+                    let careerList = advice.results;
 
                     for (var i in careerList){
                         output += `
-                        <h3 class="news-heading-title">${careerList[i].title}</h3>
-                        <img class="news-media-image border border-dark rounded" src="${careerList[i].media}">
-                        <br></br>
-                        <p class="newscontent">${careerList[i].summary}</p>
-                        <p>Published on: ${careerList[i].published_date}</p>
+                        <h4 class="news-heading-title">${careerList[i].title}</h4>
                         <a href="${careerList[i].link}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="_blank">Read more</a>
-                        <br></br>
                         <hr class="block-divider block-divider--long">
                         `;
                     }
@@ -42,10 +45,10 @@ $(document).ready(function () {
 
                 if(output !== ""){
 
-                    $("#careerAdvice").html(output);
+                    $("#onlineCourses").html(output);
                 }else{
-                    let NewsNotFound = "This news is not available. Please try searching a different topic";
-                    $("#careerAdvice").html(NewsNotFound);
+                    let CourseNotFound = "This course is not available. Please try searching a different topic";
+                    $("#onlineCourses").html(CourseNotFound);
                 }
                 },
                     
@@ -56,4 +59,9 @@ $(document).ready(function () {
     
     })
 
+        } else {
+            console.log("something has gone wrong!");
+        }
+    });
+});
 

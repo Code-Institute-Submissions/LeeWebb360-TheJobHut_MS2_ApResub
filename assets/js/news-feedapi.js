@@ -30,7 +30,7 @@ $(document).ready(function () {
     ${latestNews[i].image.thumbnail ?
                     `<div class="card-image">
                     <a href="${latestNews[i].url}" target="_blank">
-        <img src="${latestNews[i].image.thumbnail}" class="img-fluid img-thumbnail" style="width:210px;height:120px"></a>
+        <img src="${latestNews[i].image.thumbnail}" class="img-fluid img-thumbnail" style="width:410px;height:220px"></a>
     
       </div>`: null}
       <div class="card-content">
@@ -45,6 +45,9 @@ $(document).ready(function () {
 
         if (output !== "") {
             $("#news-carousel").html(output);
+            
+             
+            
             setTimeout(() => {
                 let elem = document.querySelector('#news-carousel');
                 let flkty = new Flickity(elem, {
@@ -59,8 +62,14 @@ $(document).ready(function () {
                     resize: true
                 });
             }, 0);
-
         }
+
+
+
+
+
+
+
     });
 })
 
