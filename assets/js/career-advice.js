@@ -6,7 +6,7 @@ $(document).ready(function () {
         const querytwo = $("#coursequery").val();
         console.log("value of search", querytwo);
         
-        let url = `https://google-search3.p.rapidapi.com/api/v1/search/q=${querytwo}+online+course&num=8`
+        let url = `https://google-search3.p.rapidapi.com/api/v1/search/q=${querytwo}+job+vacancy&num=8`
 
         if (querytwo !== "") {
 

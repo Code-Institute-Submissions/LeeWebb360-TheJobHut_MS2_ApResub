@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.theia",
     "\\assets",
     "\\assets\\css",
     "\\assets\\images",
-    "\\assets\\js",
-    "\\documentation"
+    "\\assets\\js"
   ],
-  "SelectedNode": "\\assets\\js\\news-feed.js",
+  "SelectedNode": "\\assets\\js\\news-feedapi.js",
   "PreviewInSolutionExplorer": true
 }
