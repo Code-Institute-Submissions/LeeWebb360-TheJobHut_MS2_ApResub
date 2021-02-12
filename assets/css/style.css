@@ -346,7 +346,8 @@ body {
 
 .form-group {
 	padding-left: 30%;
-	padding-right: 30%;
+    padding-right: 30%;
+    margin: 0;
 }
 
 .get-in-touch-contact-form .form-group .contact-us-form .form-control {
