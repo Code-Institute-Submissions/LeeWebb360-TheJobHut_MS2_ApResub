@@ -1,3 +1,5 @@
+![The Job Hut](assets/images/thejobhut-jumbotron-home.jpg)
+
 ## The Job Hut
 
 A comprehensive job search and career news website based in the United Kingdom. The website will feature a number of  interactive functions which will allow users to link to news related stories about careers in different industries. The website will also have an interactive job/vacancy search feature which will allow users to search for vacancies by job title and location.  The website will be easy to use and will update regularly to keep all vacancy links and news up to date and concurrent to job seekers .
@@ -192,7 +194,20 @@ The website will be to encourage users to feel confident that they can access va
 
 - Users can upload resumes and businesses clients can download in pdf or even PowerPoint presentations with the video referrals included. 
 
-- Business and clients can also set up their own profile to request testimonials and referrals by video.   
+- Business and clients can also set up their own profile to request testimonials and referrals by video. 
+
+### Project Barriers and solutions
+gitpod went down for 3 days which delayed the development considerably. 
+This was overcome by utilising visual studio until the problem was rectified. 
+However this lead to less content and no documentation around testing although testing was completed and all function of the site work.
+I cam up against a CORS issue with the apis I was using I found a work around with ajax however this would of only pushed a potnetial issue down the line and delayed it as the api owner may decide to block there content via ajax. 
+This is an issue which may arise in the future and I will be looking to adress this when it arises.
+
+### Testing
+- All buttons tested manually
+- Search field tested on different search parameters
+- Code has been run through validatos with some errors
+
 
 ### Technologies Used:
 
@@ -201,21 +216,38 @@ The website will be to encourage users to feel confident that they can access va
 3. Bootstrap
 4. Google Fonts
 5. Font Awesome
+6. Flickity
+7. rapid.application
+8. JavaScript
+9. Jquery
 
-### Testing:
 
-- TBC
+### Deployment
 
-### Deployment:
+- Published site to GitPages
+- All code was written on Gitpod, (Integrated Development Environment).
+- The code was then pushed to GitHub where it is stored in my Repository.
+- Under the Settings section of the GitHub repository, scrolled down to GitHub Pages section.
+- Under 'Source' drop-down, the 'Master branch' was selected.
+- Once selected, this publishes the project to GitHub Pages and displays the site URL.
+- The code can be run locally through a download or cloned (Do this by opening the repository, clicking on the green 'Code' button and selecting either clone or download).
+- The Clone option provides a URL, which you can use on your desktop IDE.
+- The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
 
-- TBC
 
-##### How to run this project Locally:
-
-- TBC
 
 ### Credits:
+- CREDIT: Code Institute Slack community
+- CREDIT: Navbar https://getbootstrap.com
+- CREDIT: Flickity carousel https://flickity.metafizzy.co/
+- CREDIT:https://getbootstrap.com/docs/5.0/components/navs/
 
-- TBC
+ 
 
 ### Acknowledgements:
+- Code insitute community
+- Course content
+- You tube tutorials
+- Stackoverflow
+
+
