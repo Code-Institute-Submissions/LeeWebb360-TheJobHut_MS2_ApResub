@@ -12,7 +12,7 @@ body {
 	        box-sizing: border-box;
 }
 
-/* ---Navbar---*/
+/* --CREDIT: Navbar https://getbootstrap.com--*/
 
 .navbar {
 	margin-bottom: 0;
@@ -179,7 +179,7 @@ body {
 
 }
 
-/*--Flickity carousel--*/
+/*--CREDIT: Flickity carousel https://flickity.metafizzy.co/--*/
 .flickity-button {
   background: transparent;
 }
@@ -198,10 +198,8 @@ body {
 }
 
 
-
-
 .news-media-image {
-    width: 400px; /* You can set the dimensions to whatever you want */
+    width: 400px;
     height: 200px;
     object-fit: cover;
     border: 5px;
@@ -251,8 +249,6 @@ body {
     padding-top: 25px;
     padding-bottom: 15px;
 }
-
-
 
 /*--jobs near you--*/
 
@@ -328,7 +324,6 @@ body {
 	bottom: 0;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.5);
-	/* Black see-through */
 	color: #f1f1f1;
 	width: 100%;
 	padding-bottom: 35px;
@@ -404,7 +399,6 @@ body {
 /*--media query to reduce number of carousel cells on smaller screen--*/
 
 @media screen and ( max-width: 767px ) {
-  /* half-width cells for larger devices */
   .carousel-cell { width: 50%; }
   .carousel-cell {height: 330px;}
 }

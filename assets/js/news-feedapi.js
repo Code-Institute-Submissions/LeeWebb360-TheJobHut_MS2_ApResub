@@ -1,3 +1,7 @@
+//Credit : Rapid api https://rapidapi.com/marketplace
+//Credit : Youtube.com for tutorials in api and jquery functions
+
+
 $(document).ready(function () {
 
 
