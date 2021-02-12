@@ -1,27 +1,28 @@
 $(document).ready(function () {
 
-    $("#search").on("click", function (e) {
+    $("#rolesearch").on("click", function (e) {
         e.preventDefault();
 
-        const query = $("#searchquery").val();
-        const countryQuery = $("#countrynews").val();
-        console.log("value of search with values", query);
-        console.log("value of search with both values", countryQuery);
+        const jobquery = $("#jobsquery").val();
+        const locationQuery = $("#locationjobs").val();
+        console.log("value of search with values", jobquery);
+        console.log("value of search with both values", locationQuery);
 
 
-        let url = `https://newscatcher.p.rapidapi.com/v1/search?q=${query}&lang=en&sort_by=relevancy&country=${countryQuery}&not_sources=teamtalk.com%2C%20ajc.com%2C%20reddit.com%2C%20tmcnet.com&ranked_only=false&page=10&page_size=5&media=True`
+        let url = `https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/WebSearchAPI?q=${jobquery}%20job%20vacancies%20${locationQuery}&pageNumber=1&pageSize=10&autoCorrect=true`
 
-        if (query && countryQuery) {
+        if (jobquery && locationQuery) {
 
-            console.log("making results readable")
+            console.log("list data results")
 
             $.ajax({
                 url: url,
                 method: "GET",
                 dataType: "json",
+                dataType: "json",
                 headers: {
                     "x-rapidapi-key": "d3c86e5140mshf9ee7714ea78605p16d425jsnf445de32948d",
-                    "x-rapidapi-host": "newscatcher.p.rapidapi.com"
+                    "x-rapidapi-host": "contextualwebsearch-websearch-v1.p.rapidapi.com"
                 },
 
 
@@ -33,19 +34,15 @@ $(document).ready(function () {
                     $("#loader").hide();
                 },
 
-                success: function (news) {
+                success: function (advice) {
                     let output = "";
-                    let newsResult = news.articles;
+                    let jobsList = advice.value;
 
-                    for (var i in newsResult) {
+                    for (var i in jobsList) {
                         output += `
-                        <h3 class="news-heading-title">${newsResult[i].title}</h3>
-                        <img class="news-media-image border border-dark rounded" src="${newsResult[i].media}">
-                        <br></br>
-                        <p class="newscontent">${newsResult[i].summary}</p>
-                        <p>Published on: ${newsResult[i].published_date}</p>
-                        <a href="${newsResult[i].link}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="_blank">Read more</a>
-                        <br></br>
+                        <h4 class="news-heading-title">${jobsList[i].title}</h4>
+                        <p class ="joblists-content">${jobsList[i].description}</p>
+                        <a href="${jobsList[i].url}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="_blank">Read more</a>
                         <hr class="block-divider block-divider--long">
                         `;
                     }
@@ -53,10 +50,10 @@ $(document).ready(function () {
 
                     if (output !== "") {
 
-                        $("#newsStory").html(output);
+                        $("#jobList").html(output);
                     } else {
-                        let NewsNotFound = "This news is not available. Please try searching a different topic";
-                        $("#newsStory").html(NewsNotFound);
+                        let NewsNotFound = "There is no jobs in this area. Please try searching a different job title or try a different location!";
+                        $("#jobList").html(NewsNotFound);
                     }
                 },
 
@@ -68,7 +65,7 @@ $(document).ready(function () {
             });
 
         } else {
-            console.log("please enter something");
+            console.log("success!!");
         }
     });
 });

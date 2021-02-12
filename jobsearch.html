@@ -91,11 +91,14 @@
         </div>
 
 
-        <div class="search-form">
-            <form class="search text-center">
-                <label for="">Search vacancies today!</label>
-                <input id="searchquery" type="text">
-                <input id="search" type="submit" class="btn-primary active" role="button" aria-pressed="true"></form>
+        <div class="search-form text-center form-group">
+            <form class="search" action="/action_page.php">
+                <label for="">Search by Job title and location!</label>
+                <input id="jobsquery" placeholder="Job Title" type="text" class="form-control text-center">
+                <label for="locationjobs"></label>
+                <input id="locationjobs" placeholder="location" type="text" class="form-control text-center">
+                <input id="rolesearch" type="submit" class="btn-primary active" role="button" aria-pressed="true">
+            </form>
         </div>
 
 
@@ -109,7 +112,7 @@
 
         <div class="news-lists">
             <div class="container-fluid text-center">
-                <div id="newsStory"></div>
+                <div id="jobList"></div>
             </div>
         </div>
 
@@ -159,6 +162,7 @@
     <script src="assets/js/flickity-carousel.js"></script>
     <script src="assets/js/news-feed.js"></script>
     <script src="assets/js/career-advice.js"></script>
+    <script src="assets/js/jobsearch.js"></script>
 
 
 
