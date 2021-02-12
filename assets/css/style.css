@@ -403,6 +403,9 @@ body {
   .carousel-cell {height: 330px;}
 }
 
-
+@media (min-width: 767px) {
+    .center-form {padding-left: 25%;}
+    .center-form {padding-right: 25%;}
+}
 
 

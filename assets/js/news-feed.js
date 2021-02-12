@@ -71,7 +71,7 @@ $(document).ready(function () {
     });
 
 } else {
-    console.log("please enter something");
+    console.log("news feed");
     }
     }); 
 });

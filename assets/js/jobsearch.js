@@ -68,7 +68,7 @@ $(document).ready(function () {
             });
 
         } else {
-            console.log("success!!");
+            console.log("job search!");
         }
     });
 });

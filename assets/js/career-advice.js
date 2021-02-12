@@ -63,7 +63,7 @@ $(document).ready(function () {
     })
 
         } else {
-            console.log("something has gone wrong!");
+            console.log("career advice!");
         }
     });
 });
