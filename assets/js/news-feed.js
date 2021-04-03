@@ -7,6 +7,10 @@ $(document).ready(function () {
         const countryQuery = $("#countrynews").val();
         console.log("value of search with values", query);
         console.log("value of search with both values", countryQuery);
+
+        if(!query || !countryQuery){
+        alert("PLEASE FILL OUT BOTH FIELDS")
+    }
       
         let url = `https://newscatcher.p.rapidapi.com/v1/search?q=${query}&lang=en&sort_by=relevancy&country=${countryQuery}&not_sources=teamtalk.com%2C%20ajc.com%2C%20reddit.com%2C%20tmcnet.com&ranked_only=false&page=1&page_size=5&media=True`
 
