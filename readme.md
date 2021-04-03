@@ -190,7 +190,7 @@ As I am new to JS and Jquery I had to research the best way to write the js code
 
 #### Deployment
 
-- Published site to GitPages
+- Published site to GitPages [The Job Hut](https://leewebb360.github.io/TheJobHut_MS2/)
 - All code was written on Gitpod, (Integrated Development Environment).
 - The code was then pushed to GitHub where it is stored in my Repository.
 - Under the Settings section of the GitHub repository, scrolled down to GitHub Pages section.
