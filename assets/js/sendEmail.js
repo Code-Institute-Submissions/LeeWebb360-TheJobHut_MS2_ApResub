@@ -1,7 +1,5 @@
 //Credit : Resume project
 //Credit : CI course content
-
-
 function sendMail(contactForm) {
     emailjs.send('service_m2ymfqq', 'Thejobhut', {
         "from_name": contactForm.name.value,
