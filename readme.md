@@ -8,7 +8,7 @@ The primary goal of the website is to show case available vacancies and also cur
 
 The website will be to encourage users to feel confident that they can access vacancies within there local area which are current and up to date as and when the role is released into the market place for applications.
 
-##### The business goals for this website are:
+#### The business goals for this website are:
 
 - To show users current and latest job vacancies with companies and businesses by location.
 - To provide latest insights into careers by recent and latest news feeds accessed from the website.
@@ -16,7 +16,7 @@ The website will be to encourage users to feel confident that they can access va
 - Increase footfall by giving the business an online presence.
 - To give customers the ability to contact the businesses and apply for roles by vacancy links direct on the companies, businesses websites.
 
-##### The customer goals of the website are:
+#### The customer goals of the website are:
 
 - To make searching for their next job, role easy and informative.
 - Gain insights into different markets and industries around the topic of careers and hiring.
@@ -24,7 +24,7 @@ The website will be to encourage users to feel confident that they can access va
 
 ### UX
 
-##### Client Stories:
+#### Client Stories:
 
 1. New visitors want a visually pleasing experience which gives them a clear understanding of the business offerings of the application.
 2. New visitors want an easy to use search facility which accurately matches jobs and opportunities available to them.
@@ -35,27 +35,27 @@ The website will be to encourage users to feel confident that they can access va
 7. Job seekers want to be able to access tips and advice on interview preparation and CV writing.
 8. Job seekers want upskilling and course advice to further their careers and become more hireable.
 
-##### This website build is the best way of achieving these things because:
+#### This website build is the best way of achieving these things because:
 
 - Web based application for jobseekers and people looking for a platform which is simple to use and gives insights into career opportunities and jobs
 - Job matching ability for users via there Job title and location.
 - News feed on job opportunities and current stories 
 
-##### Visitors to this website are looking for:
+#### Visitors to this website are looking for:
 
 - New and current job vacancies with supporting advice and career insights
 - The ability to access courses and training.
 - Current career and industry news.
 - A visual and interactive experience and an easy to navigate site.
 
-##### The Ideal Client/Customer:
+#### The Ideal Client/Customer:
 
 - Job seekers looking for their next job/role.
 - New visitors looking for industry insights around careers.
 - New visitors looking for advice on upskilling and learning new skills.
 - Returning jobseekers. 
 
-##### Wireframe Mock-ups:
+#### Wireframe Mock-ups:
 
 [Mobile First Design](documentation/wireframes/thejobhut.com-finalwireframes-finalversion-mobilefirstdesign.pdf)
 
@@ -71,81 +71,56 @@ The website will be to encourage users to feel confident that they can access va
 
 ### Features
 
-##### Mobile First Design:
+#### Mobile First Design:
 
 - Expandable menu in header
-
 - Hero image
-
 - Active pictures/buttons to websites other pages
-
 - Screen scroll to about us details
-
 - Search bar to search roles by location and job title
-
 - Google map to dhow the locations of latest roles
-
 - Footer to hold contact details and social media links
 
-##### Home Page:
+#### Home Page:
 
 - Hero image
-
 - Active pictures/buttons to websites other pages
-
 - News feeds and links to news stories
-
 - Career Advice links
-
 - Screen scroll to about us details
-
 - Google Map and job search facility
-
 - Social links and copyright
 
-##### Industry News:
+#### Industry News:
 
 - Hero image
-
 - Career news links to multiple news articles available on the internet
-
 - Links to trending jobs by Industry
-
 - Social links and copyright
 
-##### Career Advice:
+#### Career Advice:
 
 - Hero image
-
 - Links to relevant career advice on search for a new role
-
 - Links to career developemnt material such as free courses
-
 - Social links and copyright
 
-##### Jobs Near You:
+#### Jobs Near You:
 
 - Hero image
-
 - Links to relevant career advice on search for a new role
-
 - Links to career developemnt material such as free courses
-
 - Social links and copyright
 
-##### About Us Page:
+#### About Us Page:
 
 - Hero image
-
 - google map with job markers
-
 - Search facility to relevant jobs by location and job title
-
 - List of job vacancy results via the search facility
-
 - Social links and copyright
 
-### Existing Features:
+#### Existing Features:
 
 - Header and logo (hero image)
 - Nav bar
@@ -162,54 +137,39 @@ The website will be to encourage users to feel confident that they can access va
 - Links to industry news
 - Links to social media platforms
 
-### Features to implement in the future:
+#### Features to implement in the future:
 
 - Chat Bot
-
 - FAQ page
-
 - Ability for clients to search effectively for suitable candidates with video testimonials and profiles. 
-
 - Searchable database of users which is accurate on skills and job sets. 
-
 - Simple landing page which allows users to sign up using their LinkedIn account which will autofill the different areas of their profile. 
-
 - Ability to rate profiles on testimonials and recommendations.
-
 - Users can easily send a link to there profile for employers to see their referrals and recommendations.
-
 - Users can send referral requests from the web application, set the questions to ask to multiple recipients. 
-
 - Users can utilise a link which will play the referrals and testimonials on other social media news feeds and profiles such as LinkedIn Facebook etc for more external reach. 
-
 - Businesses can build a branded profile.
-
 - Users can select the questions for the referral requests they make. 
-
 - Referrals can utilise a built in video recorder when clicking on the link and view the questions which the user would like them to address in the referral or testimonial. 
-
 - Referrals can set the background of the video to make it more professional from a number of background options.
-
 - Businesses and clients can record video job specs and send them to users by the application. 
-
 - Users can upload resumes and businesses clients can download in pdf or even PowerPoint presentations with the video referrals included. 
-
 - Business and clients can also set up their own profile to request testimonials and referrals by video. 
 
-### Project Barriers and solutions
+#### Project Barriers and solutions
 gitpod went down for 3 days which delayed the development considerably. 
 This was overcome by utilising visual studio until the problem was rectified. 
 However this lead to less content and no documentation around testing although testing was completed and all function of the site work.
 I cam up against a CORS issue with the apis I was using I found a work around with ajax however this would of only pushed a potnetial issue down the line and delayed it as the api owner may decide to block there content via ajax. 
 This is an issue which may arise in the future and I will be looking to adress this when it arises.
 
-### Testing
+#### Testing
 - All buttons tested manually
 - Search field tested on different search parameters
 - Code has been run through validatos with some errors
 
 
-### Technologies Used:
+#### Technologies Used:
 
 1. HTML5
 2. CSS3
@@ -222,7 +182,7 @@ This is an issue which may arise in the future and I will be looking to adress t
 9. Jquery
 
 
-### Deployment
+#### Deployment
 
 - Published site to GitPages
 - All code was written on Gitpod, (Integrated Development Environment).
@@ -236,7 +196,7 @@ This is an issue which may arise in the future and I will be looking to adress t
 
 
 
-### Credits:
+#### Credits:
 - CREDIT: Code Institute Slack community
 - CREDIT: Navbar https://getbootstrap.com
 - CREDIT: Flickity carousel https://flickity.metafizzy.co/
@@ -244,7 +204,7 @@ This is an issue which may arise in the future and I will be looking to adress t
 
  
 
-### Acknowledgements:
+#### Acknowledgements:
 - Code insitute community
 - Course content
 - You tube tutorials

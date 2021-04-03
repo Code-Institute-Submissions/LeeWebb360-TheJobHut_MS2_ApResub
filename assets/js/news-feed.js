@@ -8,10 +8,10 @@ $(document).ready(function () {
         console.log("value of search with values", query);
         console.log("value of search with both values", countryQuery);
 
-        if(!query || !countryQuery){
-        alert("PLEASE FILL OUT BOTH FIELDS")
-    }
-      
+        if (!query, !countryQuery) {
+            alert("PLEASE FILL OUT BOTH FIELDS")
+        }
+
         let url = `https://newscatcher.p.rapidapi.com/v1/search?q=${query}&lang=en&sort_by=relevancy&country=${countryQuery}&not_sources=teamtalk.com%2C%20ajc.com%2C%20reddit.com%2C%20tmcnet.com&ranked_only=false&page=1&page_size=5&media=True`
 
         if (query && countryQuery) {
@@ -33,7 +33,7 @@ $(document).ready(function () {
                 success: function (news) {
                     let output = "";
                     let newsResult = news.articles;
-                    for (var i in newsResult){
+                    for (var i in newsResult) {
                         output += `
                         <h3 class="news-heading-title">${newsResult[i].title}</h3>
                         <img class="news-media-image border border-dark rounded" src="${newsResult[i].media}">
@@ -44,22 +44,22 @@ $(document).ready(function () {
                         <br></br>
                         <hr class="block-divider block-divider--long">
                         `;
-                    }                
-                if(output !== ""){
-                    $("#newsStory").html(output);
-                }else{
-                    let NewsNotFound = "This news is not available. Please try searching a different topic";
-                    $("#newsStory").html(NewsNotFound);
+                    }
+                    if (output !== "") {
+                        $("#newsStory").html(output);
+                    } else {
+                        let NewsNotFound = "This news is not available. Please try searching a different topic";
+                        $("#newsStory").html(NewsNotFound);
+                    }
+                },
+                error: function () {
+                    console.log("Error");
                 }
-            },                    
-        error: function() {
-            console.log("Error");
+            });
+        } else {
+            console.log("news feed");
         }
     });
-} else {
-    console.log("news feed");
-    }
-    }); 
 });
 
 
