@@ -160,7 +160,7 @@ Was used to check the CSS files
   
   Clicked on all 3 social media icons in footer and each icon took me to the a separate correct page Facebook Twitter and Linkedin.
 
-* About US
+* About Us
 
   Clicked Search Vacancies button on home page main image and took me to Job Search page.
 
