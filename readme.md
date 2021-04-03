@@ -163,10 +163,16 @@ However this lead to less content and no documentation around testing although t
 I cam up against a CORS issue with the apis I was using I found a work around with ajax however this would of only pushed a potnetial issue down the line and delayed it as the api owner may decide to block there content via ajax. 
 This is an issue which may arise in the future and I will be looking to adress this when it arises.
 
+Search fields did not give the user a prompt to fill out all fields on previous version. This was correct so an alert box comes up when any fields are left blank. 
+The email submission for now also brings up an alert for when the message is successfully submited.
+
+As I am new to JS and Jquery I had to research the best way to write the js code and implement it into the project the choice was to write one long JS file of to do multiple files and align them to the functionality of each page I decided to go with the latter for ease of future development and versions.
+
+
 #### Testing
 - All buttons tested manually
 - Search field tested on different search parameters
-- Code has been run through validatos with some errors
+- Code has been run through validators with some errors
 
 
 #### Technologies Used:
