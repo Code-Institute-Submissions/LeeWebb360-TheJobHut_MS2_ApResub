@@ -172,7 +172,8 @@ As I am new to JS and Jquery I had to research the best way to write the js code
 #### Testing
 - All buttons tested manually
 - Search field tested on different search parameters
-- Code has been run through validators with some errors
+- Code has been run through validators with some warnings
+- testing documentation can be found here [thejobhut-testing.md](https://github.com/LeeWebb360/TheJobHut_MS2/blob/7da6bef46bd30974b622f662b7cb01379cbf65cb/documentation/thejobhut-testing.md)
 
 
 #### Technologies Used:
@@ -201,7 +202,6 @@ As I am new to JS and Jquery I had to research the best way to write the js code
 - The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
 
 
-
 #### Credits:
 - CREDIT: Code Institute Slack community
 - CREDIT: Navbar https://getbootstrap.com
@@ -209,7 +209,6 @@ As I am new to JS and Jquery I had to research the best way to write the js code
 - CREDIT:https://getbootstrap.com/docs/5.0/components/navs/
 
  
-
 #### Acknowledgements:
 - Code insitute community
 - Course content
