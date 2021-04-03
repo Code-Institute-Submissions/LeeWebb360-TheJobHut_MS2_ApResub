@@ -8,6 +8,10 @@ $(document).ready(function () {
         console.log("value of search with values", jobquery);
         console.log("value of search with both values", locationQuery);
 
+        if (!jobquery, !locationQuery) {
+            alert("PLEASE FILL OUT BOTH FIELDS")
+        }
+
         let url = `https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/WebSearchAPI?q=${jobquery}%20job%20vacancies%20${locationQuery}&pageNumber=1&pageSize=10&autoCorrect=true`
 
         if (jobquery && locationQuery) {
