@@ -71,6 +71,8 @@ The website will be to encourage users to feel confident that they can access va
 
 ### Features
 
+![The Job Hut Responsive](assets/images/tjh-responsive-image.png)
+
 #### Mobile First Design:
 
 - Expandable menu in header
